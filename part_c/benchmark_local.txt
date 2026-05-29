@@ -1,0 +1,244 @@
+happy@LAPTOP-CK4BECHS:/mnt/d/master/next-term/PPC/CP9a/cp9a$ ./grading test
+Grader for cp9a, version 2026.05.18T08.32.35.000000000
+Running tests with AddressSanitizer
+Compiling...
+Compiled
+test                              time  result
+tests/001-small-raw.txt         0.025s  pass
+tests/002-small-raw.txt         0.008s  pass
+tests/003-small-raw.txt         0.023s  pass
+tests/004-small-simple.txt      0.008s  pass
+tests/008-small-simple.txt      0.028s  pass
+tests/012-small-simple.txt      0.004s  pass
+tests/016-small-simple.txt      0.019s  pass
+tests/020-small-simple.txt      0.076s  pass
+tests/024-small-simple.txt      0.016s  pass
+tests/028-small-simple.txt      0.004s  pass
+tests/032-small-simple.txt      0.017s  pass
+tests/036-small-simple.txt      0.005s  pass
+tests/040-small-simple.txt      0.023s  pass
+tests/044-small-simple.txt      0.006s  pass
+tests/048-small-simple.txt      0.102s  pass
+tests/084-small-simple.txt      0.100s  pass
+tests/088-small-simple.txt      0.044s  pass
+tests/092-small-simple.txt      0.111s  pass
+tests/096-small-simple.txt      0.025s  pass
+tests/156-small-simple.txt      0.032s  pass
+tests/160-medium-simple.txt     0.030s  pass
+tests/164-medium-simple.txt     0.023s  pass
+tests/168-medium-simple.txt     0.040s  pass
+tests/176-medium-simple.txt     0.021s  pass
+tests/200-medium-simple.txt     0.024s  pass
+tests/204-medium-simple.txt     0.034s  pass
+tests/208-large-simple.txt      0.132s  pass
+Running tests with uninitialized variable check
+Compiling...
+Compiled
+test                              time  result
+tests/001-small-raw.txt         0.243s  pass
+tests/002-small-raw.txt         0.164s  pass
+tests/003-small-raw.txt         0.088s  pass
+tests/004-small-simple.txt      0.079s  pass
+tests/008-small-simple.txt      0.071s  pass
+tests/012-small-simple.txt      0.085s  pass
+tests/016-small-simple.txt      0.105s  pass
+tests/020-small-simple.txt      0.069s  pass
+tests/024-small-simple.txt      0.103s  pass
+tests/028-small-simple.txt      0.141s  pass
+tests/032-small-simple.txt      0.085s  pass
+tests/036-small-simple.txt      0.034s  pass
+tests/040-small-simple.txt      0.124s  pass
+tests/044-small-simple.txt      0.078s  pass
+tests/048-small-simple.txt      0.038s  pass
+tests/084-small-simple.txt      0.037s  pass
+tests/088-small-simple.txt      0.056s  pass
+tests/092-small-simple.txt      0.057s  pass
+tests/096-small-simple.txt      0.033s  pass
+tests/156-small-simple.txt      0.049s  pass
+tests/160-medium-simple.txt     0.059s  pass
+tests/164-medium-simple.txt     0.058s  pass
+tests/168-medium-simple.txt     0.088s  pass
+tests/176-medium-simple.txt     0.044s  pass
+tests/200-medium-simple.txt     0.014s  pass
+tests/204-medium-simple.txt     0.032s  pass
+tests/208-large-simple.txt      0.040s  pass
+benchmarks/1.txt                0.094s  pass
+benchmarks/2a.txt               0.215s  pass
+benchmarks/2b.txt               0.184s  pass
+benchmarks/2c.txt               0.165s  pass
+benchmarks/3.txt                0.777s  pass
+benchmarks/4.txt                2.156s  pass
+Running tests
+Compiling...
+Compiled
+test                              time  result
+tests/001-small-raw.txt         0.039s  pass
+tests/002-small-raw.txt         0.039s  pass
+tests/003-small-raw.txt         0.040s  pass
+tests/004-small-simple.txt      0.009s  pass
+tests/008-small-simple.txt      0.036s  pass
+tests/012-small-simple.txt      0.065s  pass
+tests/016-small-simple.txt      0.016s  pass
+tests/020-small-simple.txt      0.005s  pass
+tests/024-small-simple.txt      0.016s  pass
+tests/028-small-simple.txt      0.020s  pass
+tests/032-small-simple.txt      0.061s  pass
+tests/036-small-simple.txt      0.032s  pass
+tests/040-small-simple.txt      0.009s  pass
+tests/044-small-simple.txt      0.002s  pass
+tests/048-small-simple.txt      0.018s  pass
+tests/084-small-simple.txt      0.007s  pass
+tests/088-small-simple.txt      0.040s  pass
+tests/092-small-simple.txt      0.011s  pass
+tests/096-small-simple.txt      0.015s  pass
+tests/156-small-simple.txt      0.018s  pass
+tests/160-medium-simple.txt     0.016s  pass
+tests/164-medium-simple.txt     0.008s  pass
+tests/168-medium-simple.txt     0.021s  pass
+tests/176-medium-simple.txt     0.012s  pass
+tests/200-medium-simple.txt     0.040s  pass
+tests/204-medium-simple.txt     0.059s  pass
+tests/208-large-simple.txt      0.044s  pass
+benchmarks/1.txt                0.077s  pass
+benchmarks/2a.txt               0.132s  pass
+benchmarks/2b.txt               0.092s  pass
+benchmarks/2c.txt               0.098s  pass
+benchmarks/3.txt                0.642s  pass
+benchmarks/4.txt                2.271s  pass
+happy@LAPTOP-CK4BECHS:/mnt/d/master/next-term/PPC/CP9a/cp9a$ ./grading benchmark
+Grader for cp9a, version 2026.05.18T08.32.35.000000000
+Running benchmark
+Compiling...
+Compiled
+test                    time  result
+benchmarks/1.txt      0.051s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 0.051 sec of wallclock time, and 0.823 sec of CPU time
+   → you used 16.1 simultaneous hardware threads on average.
+   0.014 sec (1.68%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 5876 page faults,
+   with 115 thousand faults per second.
+
+benchmarks/2a.txt     0.090s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 0.090 sec of wallclock time, and 1.739 sec of CPU time
+   → you used 19.4 simultaneous hardware threads on average.
+   0.281 sec (16.2%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 52406 page faults,
+   with 585 thousand faults per second.
+
+benchmarks/2b.txt     0.099s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 0.099 sec of wallclock time, and 1.914 sec of CPU time
+   → you used 19.4 simultaneous hardware threads on average.
+   0.269 sec (14.0%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 50106 page faults,
+   with 509 thousand faults per second.
+
+benchmarks/2c.txt     0.103s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 0.103 sec of wallclock time, and 1.978 sec of CPU time
+   → you used 19.1 simultaneous hardware threads on average.
+   0.302 sec (15.3%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 48434 page faults,
+   with 469 thousand faults per second.
+
+benchmarks/3.txt      0.679s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 0.679 sec of wallclock time, and 13.073 sec of CPU time
+   → you used 19.3 simultaneous hardware threads on average.
+   1.705 sec (13.0%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 156 thousand page faults,
+   with 231 thousand faults per second.
+
+benchmarks/4.txt      2.145s  pass
+
+Standard error:
+Could not add performance counter 'cycles': No such file or directory
+Could not add performance counter 'instructions': No such file or directory
+Could not add performance counter 'branches': No such file or directory
+Could not add performance counter 'branch_misses': No such file or directory
+
+ · Your code used 2.145 sec of wallclock time, and 41.545 sec of CPU time
+   → you used 19.4 simultaneous hardware threads on average.
+   4.611 sec (11.1%) was spent outside user space.
+
+ · WARNING: No measurements were performed inside kernel calls.
+   The numbers below may be inaccurate.
+
+ · During the runtime of the program,
+   0.00 CPU migrations (≈0.00 per sec) and
+   0.00 context switches (≈0.00 per sec) occurred.
+
+ · Your program experienced 333 thousand page faults,
+   with 155 thousand faults per second.

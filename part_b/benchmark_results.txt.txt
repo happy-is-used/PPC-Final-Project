@@ -1,0 +1,11 @@
+(b) Practical limitations
+===================================================
+happy@LAPTOP-CK4BECHS:/mnt/d/master/next-term/PPC/P9a/part_b$ ./benchmark
+Enter an initial float value (e.g., 1.1): 1.1
+Running V2 benchmark with 20 OpenMP threads...
+
+================ Benchmark Results ================
+Wall-clock Time      : 5.18918 seconds
+Total FLOPs Executed : 5760000000000 (5760 GFLOPs)
+Achieved Performance : 1.11 TFLOPS
+===================================================

@@ -1,0 +1,19 @@
+All tests passed!
+Everything looks good: your solution has passed all of our tests, and I was also able to run the benchmarks. Here are the running times I got; your code will be graded using benchmarks/4.txt:
+
+Benchmark	Time	Cycles	Instr.	Threads
+benchmarks/1	0.0224 s	581.1 × 106	240.9 × 106	17.3
+benchmarks/2a	0.0833 s	5.1 × 109	2.8 × 109	19.5
+benchmarks/2b	0.0817 s	4.8 × 109	2.8 × 109	19.5
+benchmarks/2c	0.0815 s	4.8 × 109	2.8 × 109	19.5
+benchmarks/3	0.4889 s	32.9 × 109	31.5 × 109	18.2
+benchmarks/4	1.4359 s	100.7 × 109	103.4 × 109	18.6
+the input contains 9000 × 9000 pixels, and the output should contain 9000 × 9000 pixels
+CPU:
+
+Your code used 1.436 sec of wallclock time, and 26.762 sec of CPU time, so you used 18.6 simultaneous hardware threads on average. It seems 1.749 sec (≈6.54%) of the running time was spent outside user space.
+The total number of clock cycles was 101 billion, and therefore it seems that the average clock frequency of the CPU was 3.76 GHz.
+The CPU executed 103 billion machine-language instructions ≈ 72.0 instructions per nanosecond (wallclock) ≈ 3.87 instructions per nanosecond (CPU time) ≈ 1.03 instructions per clock cycle.
+2.15% of the instructions were branches and 0.436% of them were mispredicted.
+During the runtime of the program, 37.0 CPU migrations (≈25.8 per sec) and 184 context switches (≈128 per sec) occurred.
+Your program experienced 377 thousand page faults, with 262 thousand faults per second.

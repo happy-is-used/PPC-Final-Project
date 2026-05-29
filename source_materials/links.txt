@@ -1,0 +1,5 @@
+[1]	Intel Corporation. (2023). Intel® Core™ i7-13700H Processor Specifications. Intel ARK (Automated Relational Knowledgebase). Retrieved from https://ark.intel.com/content/www/us/en/ark/products/232125/intel-core-i713700h-processor-24m-cache-up-to-5-00-ghz.html
+[2]	Intel Corporation. (2023). Intel® 64 and IA-32 Architectures Optimization Reference Manual. Retrieved from https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+[3]	TechPowerUp. (2023). NVIDIA GeForce RTX 4060 Mobile GPU Specifications. TechPowerUp GPU Database. Retrieved from https://www.techpowerup.com/gpu-specs/geforce-rtx-4060-mobile.c3946
+[4]	NVIDIA Corporation. (2022). NVIDIA Ada GPU Architecture Whitepaper. Retrieved from https://images.nvidia.com/aem-dam/Solutions/Data-Center/l4/nvidia-ada-gpu-architecture-whitepaper-v2.01.pdf
+[5]	NVIDIA Corporation. (2024). CUDA C++ Programming Guide. NVIDIA Developer Documentation. Retrieved from https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
