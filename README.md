@@ -17,6 +17,3 @@ This repository contains my final research project for the Parallel Programming 
   * Contains the fastest CP solution evaluated (`cp.cc` from CP9a) along with local and server benchmark logs to provide a real-world algorithm performance comparison.
 * `source_materials/` 
   * Contains links to the official Intel and NVIDIA architectural reference manuals used for theoretical FLOPs calculations.
-
-## Note
-This is a private repository submitted for grading purposes.
